@@ -1,6 +1,6 @@
 {
   "name": "winxptheme",
-  "displayName": "winxptheme",
+  "displayName": "Windows XP Theme",
   "description": "Windows XP Luna theme",
   "version": "0.0.1",
   "engines": {
@@ -12,9 +12,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Windows XP Theme",
+        "label": "Windows XP Theme Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Windows XP Theme-color-theme.json"
+        "path": "./themes/Windows XP Theme-color-theme-dark.json"
+      },
+      {
+        "label": "Windows XP Theme Light",
+        "uiTheme": "vs",
+        "path": "./themes/Windows XP Theme-color-theme-light.json"
       }
     ]
   }
